@@ -1,0 +1,49 @@
+.entete{
+    height: 10px;
+    margin: 0;
+    padding: 15px; 
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        color: blue;
+        
+    
+
+    li {
+       
+        cursor: pointer;
+        color: white;
+        
+        &:not(:last-of-type) {
+          padding-right: 15px;
+          
+        }
+  
+        &:not(:first-of-type) {
+          padding-left: 15px;
+        }
+      }
+
+      &.navTitre{
+         
+          margin-right: 35px;
+      }
+    
+
+    &.navIdentifiant{
+       margin-left: auto;
+       align-items: center;
+    }
+
+    
+}
+
+}

@@ -1,0 +1,24 @@
+
+.Appli{
+    margin: auto;
+    //background-color: rgb(144, 184, 187);
+}
+
+.contenuPrincipal{
+
+    //height: 100vh;
+    padding-left: 10vw;// au lieu du margin
+    padding-right: 10vw;// au lieu du margin
+    
+    border: 3px solid red;
+    margin-top: 20px;
+
+    .BoutonAjout{
+    
+    float: right;
+    border: 4px solid pink;
+   
+    }
+
+}
+
